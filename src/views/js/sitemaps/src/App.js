@@ -7,8 +7,8 @@ function App() {
     return (
         <Routes>
             <Switch>
-                <Route exact path={'/acr/sitemaps/index'} component={Sitemaps}/>
-                <Route exact path={'/acr/sitemaps/search'} component={Search}/>
+                <Route exact path={'/admin'} component={Sitemaps}/>
+                <Route exact path={'/'} component={Search}/>
             </Switch>
         </Routes>
     )
