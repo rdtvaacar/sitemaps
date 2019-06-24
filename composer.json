@@ -1,5 +1,5 @@
 {
-  "name": "rdtvaacar/sitemaps",
+  "name": "acr/sitemaps",
   "description": "Site search and tag",
   "license": "MIT",
   "authors": [
@@ -25,15 +25,14 @@
   },
   "autoload": {
     "psr-4": {
-      "rdtvaacar\\sitemaps\\": "src/"
+      "acr\\sitemaps\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "rdtvaacar\\sitemaps\\Tests\\": "tests"
+      "acr\\sitemaps\\Tests\\": "tests"
     }
   },
-
   "extra": {
     "laravel": {
       "providers": [
