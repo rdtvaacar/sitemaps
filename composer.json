@@ -33,6 +33,7 @@
       "rdtvaacar\\sitemaps\\Tests\\": "tests"
     }
   },
+
   "extra": {
     "laravel": {
       "providers": [
