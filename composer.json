@@ -1,43 +1,46 @@
 {
-    "name": "rdtvaacar/sitemaps",
-    "description": ":description",
-    "license": "license",
-    "authors": [
-        {
-            "name": "aydin acar",
-            "email": "acarbey15@gmail.com",
-            "homepage": "https://aydinacar.net"
-        }
-    ],
-    "homepage": "https://github.com/acr/sitemaps",
-    "keywords": ["Laravel", "sitemaps"],
-    "require": {
-        "illuminate/support": "~5"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~7.0",
-        "mockery/mockery": "^1.1",
-        "orchestra/testbench": "~3.0",
-        "sempro/phpunit-pretty-print": "^1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "rdtvaacar\\sitemaps\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "rdtvaacar\\sitemaps\\Tests\\": "tests"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "acr\\sitemaps\\sitemapsServiceProvider"
-            ],
-            "aliases": {
-                "sitemaps": "acr\\sitemaps\\Facades\\sitemaps"
-            }
-        }
+  "name": "rdtvaacar/sitemaps",
+  "description": "Site search and tag",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "aydin acar",
+      "email": "acarbey15@gmail.com",
+      "homepage": "https://aydinacar.net"
     }
+  ],
+  "homepage": "https://github.com/acr/sitemaps",
+  "keywords": [
+    "Laravel",
+    "sitemaps"
+  ],
+  "require": {
+    "illuminate/support": "~5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~7.0",
+    "mockery/mockery": "^1.1",
+    "orchestra/testbench": "~3.0",
+    "sempro/phpunit-pretty-print": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "rdtvaacar\\sitemaps\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "rdtvaacar\\sitemaps\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "acr\\sitemaps\\sitemapsServiceProvider"
+      ],
+      "aliases": {
+        "sitemaps": "acr\\sitemaps\\Facades\\sitemaps"
+      }
+    }
+  }
 }
