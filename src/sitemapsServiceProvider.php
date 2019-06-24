@@ -62,13 +62,13 @@ class sitemapsServiceProvider extends ServiceProvider
         ], 'sitemaps.config');
 
         // Publishing the views.
-      /*  $this->publishes([
-            __DIR__ . '/views' => base_path('resources/views/vendor/acr/sitemaps'),
-        ], 'sitemaps.views');*/
+        /*  $this->publishes([
+              __DIR__ . '/views' => base_path('resources/views/vendor/acr/sitemaps'),
+          ], 'sitemaps.views');*/
 
         // Publishing assets.
         $this->publishes([
-            __DIR__ . '/views/js/sitemaps/build' => public_path('vendor/acr/sitemaps'),
+            __DIR__ . '/views/js/sitemaps/build' => base_path('public_html/vendor/acr/sitemaps'),
         ], 'sitemaps.views');
 
         // Publishing the translation files.
