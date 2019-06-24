@@ -4,9 +4,9 @@
     "license": "license",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "aydin acar",
+            "email": "acarbey15@gmail.com",
+            "homepage": "https://aydinacar.net"
         }
     ],
     "homepage": "https://github.com/acr/sitemaps",
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "acr\\sitemaps\\": "src/"
+            "rdtvaacar\\sitemaps\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "acr\\sitemaps\\Tests\\": "tests"
+            "rdtvaacar\\sitemaps\\Tests\\": "tests"
         }
     },
     "extra": {
